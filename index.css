@@ -3,12 +3,20 @@ html, body {
   margin: 0;
 }
 
+body {
+  background-color: #EBECF2;
+}
+
 .separator {
   padding: 8px 0  6px 0;
   height: 56px;
   display: flex;
   align-items: center;
   border-left: 1px solid #eee;
+}
+
+ul {
+  background-color: #fff;
 }
 
 a {
@@ -47,7 +55,7 @@ a.current svg {
 .device-tablet-p {
   width: 600px;
   height: 900px;
-  margin-top: -15px;
+  margin-top: -25px;
   padding: 2em 1em 2em;
   background-image: url('assets/iPad.png');
 }
@@ -63,9 +71,8 @@ a.current svg {
 .device-mobile-p {
   width: 440px;
   height: 620px;
-  /*margin-top: -15px;*/
   padding: 1em 1em 3em;
-  margin-top: 42px !important;
+  margin-top: 32px !important;
   background-image: url('assets/iPhone.png');
 }
 
