@@ -123,11 +123,12 @@ svg:hover{
 }
 
 .svg-tablet {
-  width: 34px;
-  height: 34px;
+  width: 33px;
+  height: 33px;
 }
 
 .svg-phone {
+  padding-top: 5px;
   width: 28px;
   height: 28px;
 }
