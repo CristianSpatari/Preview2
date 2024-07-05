@@ -5,17 +5,21 @@ html, body {
 
 .separator {
   padding: 8px 0  6px 0;
-  height: 57px;
+  height: 56px;
   display: flex;
   align-items: center;
   border-left: 1px solid #eee;
 }
 
 a {
-  padding: 20.5px;
+  padding: 15px 20.5px;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+}
+
+a.current svg {
+  color: #3D3AC4;
 }
 
 .preview {
@@ -31,18 +35,19 @@ a {
 
 .device-desktop {
   width: 100vw;
-  height: 94.3vh;
+  height: 94.5vh;
 }
 
 .device-desktop iframe {
   width: 100%;
-  height: 94.3vh;
+  height: 94.5vh;
   transition: none;
 }
 
 .device-tablet-p {
   width: 600px;
   height: 900px;
+  margin-top: -15px;
   padding: 2em 1em 2em;
   background-image: url('assets/iPad.png');
 }
@@ -58,8 +63,9 @@ a {
 .device-mobile-p {
   width: 440px;
   height: 620px;
+  /*margin-top: -15px;*/
   padding: 1em 1em 3em;
-  margin-top: 58px !important;
+  margin-top: 42px !important;
   background-image: url('assets/iPhone.png');
 }
 
@@ -98,10 +104,23 @@ a {
 
 svg{
   color: #8685A8;
-  width: 32px;
-  height: 32px;
 }
 
 svg:hover{
   color: #3D3AC4;
+}
+
+.svg-desktop {
+  width: 40px;
+  height: 40px;
+}
+
+.svg-tablet {
+  width: 34px;
+  height: 34px;
+}
+
+.svg-phone {
+  width: 28px;
+  height: 28px;
 }
